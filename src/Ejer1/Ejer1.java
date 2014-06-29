@@ -50,8 +50,8 @@ public class Ejer1 {
             System.out.println(i+" "+arreglo3[i]);            
             
         }
-        x=Integer.parseInt(JOptionPane.showInputDialog("Ingrese valor del entero X"));
-        y=Integer.parseInt(JOptionPane.showInputDialog("Ingrese valor del entero Y"));
+        x=Integer.parseInt(JOptionPane.showInputDialog("Ingresar valor del entero X"));
+        y=Integer.parseInt(JOptionPane.showInputDialog("Ingresar valor del entero Y"));
         if (x<=0 || x>255 || y<=0 || y>255)
         {
             r=-1;
