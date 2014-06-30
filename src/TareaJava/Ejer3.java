@@ -19,29 +19,29 @@ public class Ejer3 {
      */
     public static void main(String[] args) {
         
-        int x,y,r,proceso;
+        int x,y,s,proceso;
         x=Integer.parseInt(JOptionPane.showInputDialog("Ingresar el valor del entero X"));
         y=Integer.parseInt(JOptionPane.showInputDialog("Ingresar el valor del entero Y"));
         if (x<=0 || x>255)
         {
-            r=-1;
-            JOptionPane.showMessageDialog(null,"resultado es  "+r);
+            s=-1;
+            JOptionPane.showMessageDialog(null,"resultado es  "+s);
         }
         else
         {
-            int[] arreglo=new int[y];
-            arreglo[0]=x;
-            for (int i = 1;i<arreglo.length; i++) 
+            int[] arreg=new int[y];
+            arreg[0]=x;
+            for (int i = 1;i<arreg.length; i++) 
             {
                proceso=x/(i+1);
-               arreglo[i]=proceso;           
+               arreg[i]=proceso;           
             }
-            for (int i = 0; i < arreglo.length; i++) 
+            for (int i = 0; i < arreg.length; i++) 
             { 
               if(i==(y-1))
                 {
                     
-                    JOptionPane.showMessageDialog(null,arreglo[i]+"resultado es ");
+                    JOptionPane.showMessageDialog(null,arreg[i]+"resultado es ");
                 }  
             }
         }
