@@ -18,13 +18,13 @@ public class Ejer3 {
      */
     public static void main(String[] args) {
         
-        int x,y,s,proceso;
+        int x,y,r,proceso;
         x=Integer.parseInt(JOptionPane.showInputDialog("Ingresar el valor del entero X"));
         y=Integer.parseInt(JOptionPane.showInputDialog("Ingresar el valor del entero Y"));
         if (x<=0 || x>255)
         {
-            s=-1;
-            JOptionPane.showMessageDialog(null,"El resultado es "+s);
+            r=-1;
+            JOptionPane.showMessageDialog(null,"El resultado es"+r);
         }
         else
         {
