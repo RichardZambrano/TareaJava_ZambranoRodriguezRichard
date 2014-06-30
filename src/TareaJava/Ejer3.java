@@ -7,6 +7,7 @@
 package TareaJava;
 
 import javax.swing.JOptionPane;
+
 /**
  *
  * @author Riky
@@ -24,7 +25,7 @@ public class Ejer3 {
         if (x<=0 || x>255)
         {
             r=-1;
-            JOptionPane.showMessageDialog(null,"El resultado es"+r);
+            JOptionPane.showMessageDialog(null,"El resultadoes "+r);
         }
         else
         {
