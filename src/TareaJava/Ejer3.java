@@ -20,8 +20,10 @@ public class Ejer3 {
     public static void main(String[] args) {
         
         int x,y,s,proceso;
-        x=Integer.parseInt(JOptionPane.showInputDialog("Ingresar el valor del entero X"));
-        y=Integer.parseInt(JOptionPane.showInputDialog("Ingresar el valor del entero Y"));
+        x=Integer.parseInt(JOptionPane.showInputDialog
+        ("Ingresar el valor del entero X"));
+        y=Integer.parseInt(JOptionPane.showInputDialog
+        ("Ingresar el valor del entero Y"));
         if (x<=0 || x>255)
         {
             s=-1;
@@ -41,7 +43,7 @@ public class Ejer3 {
               if(i==(y-1))
                 {
                     
-                    JOptionPane.showMessageDialog(null,arreg[i]+"El resultado es ");
+                     JOptionPane.showMessageDialog(null,arreg[i]+"El resultado es ");
                 }  
             }
         }
