@@ -24,7 +24,7 @@ public class Ejer3 {
         if (x<=0 || x>255)
         {
             s=-1;
-            JOptionPane.showMessageDialog(null,"Resultado "+s);
+            JOptionPane.showMessageDialog(null,"El resultado es "+s);
         }
         else
         {
@@ -40,7 +40,7 @@ public class Ejer3 {
               if(i==(y-1))
                 {
                     
-                    JOptionPane.showMessageDialog(null,"El Resultado es "+arreglo[i]);
+                    JOptionPane.showMessageDialog(null,"El resultado es "+arreglo[i]);
                 }  
             }
         }
