@@ -32,13 +32,13 @@ public class Ejer2 {
      */
     public static void main(String[] args) {
         
-        int x,y,r;
+        int x,y,s;
         x=Integer.parseInt(JOptionPane.showInputDialog("Ingresar el valor del entero X"));
         y=Integer.parseInt(JOptionPane.showInputDialog("Ingresar el valor del entero Y"));
         if (x<=0 || x>255)
         {
-            r=-1;
-            JOptionPane.showMessageDialog(null,"Resultado "+r);
+            s=-1;
+            JOptionPane.showMessageDialog(null,"Resultado "+s);
         }
         else
         {
@@ -54,8 +54,8 @@ public class Ejer2 {
             {
                 if(i==(y-1))
                 {
-                    r=arreglo[i];
-                    JOptionPane.showMessageDialog(null,"Resultado "+r);
+                    s=arreglo[i];
+                    JOptionPane.showMessageDialog(null,"Resultado "+s);
                 }
             }
         }
