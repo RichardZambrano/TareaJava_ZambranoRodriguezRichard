@@ -20,8 +20,8 @@ import javax.swing.JOptionPane;
 public class Ejer5 {
    
     public static void main(String[] args){
-    int n=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el rango del vector"));
-            int[] vector=new int[n];
+    int N=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el rango del vector"));
+            int[] vector=new int[N];
             int c=0;
     
     for (int i = 0; i < vector.length; i++) 
