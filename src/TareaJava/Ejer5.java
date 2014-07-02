@@ -16,7 +16,10 @@ La función recibirá un arreglo de enteros, y devolver una matriz de enteros.
 package TareaJava;
 
 import javax.swing.JOptionPane;
-
+/**
+ *
+ * @author RikY
+ */
 public class Ejer5 {
    
     public static void main(String[] args){
