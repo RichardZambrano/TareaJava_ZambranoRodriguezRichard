@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 /*
 5.) Escriba una función para eliminar los duplicados de una matriz ordenada de enteros en una línea de código. 
 (Usted puede usar tantas declaraciones como sea necesario, pero el código debe ser escrito en una sola línea).
